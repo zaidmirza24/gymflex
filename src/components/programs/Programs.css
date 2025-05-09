@@ -4,7 +4,10 @@
     gap: 2rem;
     padding: 0 2rem;
 }
-
+.b{
+    color: white;
+    text-decoration: none;
+}
 .programs-header {
     display: flex;
     justify-content: center;

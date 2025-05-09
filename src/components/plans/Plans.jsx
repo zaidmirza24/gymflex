@@ -2,6 +2,7 @@ import React from 'react'
 import {plansData} from '../../data/plansData'
 import whiteTick from '../../assets/whiteTick.png'
 import './Plans.css'
+import { Link } from 'react-router-dom'
 
 const Plans = () => {
   return (
@@ -25,16 +26,17 @@ const Plans = () => {
 
                     <div className="features">
                     {plan.features.map((feature, i) => (
-                        <div className="feature">
+                        <div className="feature" key={Math.random()}>
                             <img src={whiteTick} alt="" />
                             <span key={i}>{feature}</span>
                         </div>
                     ))}
                     </div>     
                     <div>
-                        <span>See more benefits -></span>
+                        <span>See more benefits -</span>
                     </div>    
-                    <button className="btn">Join now</button>
+                    <Link style={{color:'black',textDecoration:'none'}} to={'/form'}>
+                    <div style={{color:'black',textDecoration:'none'}} className="btn">Join now</div></Link>
                 </div>  
             ))}
         </div>

@@ -8,6 +8,7 @@ import NumberCounter from 'number-counter'
 import './HeroSection.css'
 
 import {motion} from 'framer-motion'
+import { Link, Links } from 'react-router-dom';
 
 const HeroSection = () => {
 
@@ -83,13 +84,17 @@ const HeroSection = () => {
                     </div>
                 </div>
                 <div className="hero-buttons">
-                    <buttons className="btn">Get Started</buttons>
-                    <buttons className="btn">Learn More</buttons>
+                    <div className="btn"><Link className='b' to={'/form'}>Get Started</Link></div>
+                    <div className="btn">Learn More</div>
                 </div>
             </div>
 
             <div className="right-h">
-                <button className="btn">Join Now</button>
+                <div className="btn">
+                    <Link style={{color:'black',textDecoration:'none'}} className='b' to='/form'>
+                        Join Now
+                    </Link>
+                </div>
                 <motion.div 
                     initial={{ right: "-1rem" }}
                     whileInView={{ right: "4rem" }}
