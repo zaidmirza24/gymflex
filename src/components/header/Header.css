@@ -7,7 +7,17 @@
     width: 10rem;
     height: 3rem;
 }
+.header-menu-mobile {
 
+    position: fixed;
+    top: 4rem;
+    right: 1rem;
+    flex-direction: column;
+    background-color: var(--appColor);
+    padding: 1rem;
+    border-radius: 8px;
+    z-index: 99;
+  }
 .header-menu {
     list-style: none;
     display: flex;

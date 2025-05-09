@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
 import './Join.css'
+import { Link } from 'react-router-dom';
 
 const Join = () => {
 
@@ -42,7 +42,12 @@ const Join = () => {
                         name="user_email" 
                         placeholder="Enter your email address"
                     />
-                    <button className="btn btn-j">Join Now</button>
+                    {/* <button className="btn btn-j"><Link to='/form'>Join Now</Link></button> */}
+                    {/* <Link to="/form" className="btn btn-j">Join Now</Link> */}
+                    <div className="btn btn-j">
+                      <Link className='btn-join' to='/form' >Join Now</Link>
+                    </div>
+
                 </form>
             </div>
         </div>

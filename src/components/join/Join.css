@@ -19,6 +19,600 @@
     border-radius: 20%;
     margin: -10px 0;
 }
+.Join {
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.join-slider {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.left-j, .right-j {
+  min-width: 100%;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Form styling */
+.email-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.email-container input {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.btn-j {
+  background-color: var(--appColor);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Desktop view */
+@media (min-width: 769px) {
+  .join-slider {
+    overflow: hidden;
+    flex-direction: row;
+  }
+
+  .left-j, .right-j {
+    min-width: unset;
+    flex: 1;
+    scroll-snap-align: unset;
+  }
+}
+.Join {
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.join-slider {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.left-j, .right-j {
+  min-width: 100%;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Form styling */
+.email-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.email-container input {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.btn-j {
+  background-color: var(--appColor);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Desktop view */
+@media (min-width: 769px) {
+  .join-slider {
+    overflow: hidden;
+    flex-direction: row;
+  }
+
+  .left-j, .right-j {
+    min-width: unset;
+    flex: 1;
+    scroll-snap-align: unset;
+  }
+}
+.Join {
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.join-slider {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.left-j, .right-j {
+  min-width: 100%;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Form styling */
+.email-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.email-container input {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.btn-j {
+  background-color: var(--appColor);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Desktop view */
+@media (min-width: 769px) {
+  .join-slider {
+    overflow: hidden;
+    flex-direction: row;
+  }
+
+  .left-j, .right-j {
+    min-width: unset;
+    flex: 1;
+    scroll-snap-align: unset;
+  }
+}
+.Join {
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.join-slider {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.left-j, .right-j {
+  min-width: 100%;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Form styling */
+.email-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.email-container input {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.btn-j {
+  background-color: var(--appColor);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Desktop view */
+@media (min-width: 769px) {
+  .join-slider {
+    overflow: hidden;
+    flex-direction: row;
+  }
+
+  .left-j, .right-j {
+    min-width: unset;
+    flex: 1;
+    scroll-snap-align: unset;
+  }
+}
+.Join {
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.join-slider {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.left-j, .right-j {
+  min-width: 100%;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Form styling */
+.email-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.email-container input {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.btn-j {
+  background-color: var(--appColor);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Desktop view */
+@media (min-width: 769px) {
+  .join-slider {
+    overflow: hidden;
+    flex-direction: row;
+  }
+
+  .left-j, .right-j {
+    min-width: unset;
+    flex: 1;
+    scroll-snap-align: unset;
+  }
+}
+.Join {
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.join-slider {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.left-j, .right-j {
+  min-width: 100%;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Form styling */
+.email-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.email-container input {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.btn-j {
+  background-color: var(--appColor);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Desktop view */
+@media (min-width: 769px) {
+  .join-slider {
+    overflow: hidden;
+    flex-direction: row;
+  }
+
+  .left-j, .right-j {
+    min-width: unset;
+    flex: 1;
+    scroll-snap-align: unset;
+  }
+}
+.Join {
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.join-slider {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.left-j, .right-j {
+  min-width: 100%;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Form styling */
+.email-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.email-container input {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.btn-j {
+  background-color: var(--appColor);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Desktop view */
+@media (min-width: 769px) {
+  .join-slider {
+    overflow: hidden;
+    flex-direction: row;
+  }
+
+  .left-j, .right-j {
+    min-width: unset;
+    flex: 1;
+    scroll-snap-align: unset;
+  }
+}
+.Join {
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.join-slider {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.left-j, .right-j {
+  min-width: 100%;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Form styling */
+.email-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.email-container input {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.btn-j {
+  background-color: var(--appColor);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Desktop view */
+@media (min-width: 769px) {
+  .join-slider {
+    overflow: hidden;
+    flex-direction: row;
+  }
+
+  .left-j, .right-j {
+    min-width: unset;
+    flex: 1;
+    scroll-snap-align: unset;
+  }
+}
+.Join {
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.join-slider {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.left-j, .right-j {
+  min-width: 100%;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Form styling */
+.email-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.email-container input {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.btn-j {
+  background-color: var(--appColor);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Desktop view */
+@media (min-width: 769px) {
+  .join-slider {
+    overflow: hidden;
+    flex-direction: row;
+  }
+
+  .left-j, .right-j {
+    min-width: unset;
+    flex: 1;
+    scroll-snap-align: unset;
+  }
+}
+.Join {
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.join-slider {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.left-j, .right-j {
+  min-width: 100%;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Form styling */
+.email-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.email-container input {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.btn-j {
+  background-color: var(--appColor);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-join{
+  color: white;
+  text-decoration: none;
+}
+
+/* Desktop view */
+@media (min-width: 769px) {
+  .join-slider {
+    overflow: hidden;
+    flex-direction: row;
+  }
+
+  .left-j, .right-j {
+    min-width: unset;
+    flex: 1;
+    scroll-snap-align: unset;
+  }
+}
 
 .left-j>div {
     display: flex;
