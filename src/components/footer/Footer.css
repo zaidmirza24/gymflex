@@ -5,6 +5,9 @@
 .Footer-container > hr {
     border: 1px solid var(--lightgray);
 }
+.copy{
+
+}
 
 .footer {
     display: flex;
@@ -21,7 +24,7 @@
     gap: 4rem;
 }
 
-.social-links > img {
+.social-links img{
     width: 2rem;
     height: 2rem;
     cursor: pointer;

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Logo from '../../assets/logo.png';
+// import Logo from '../../assets/logo.png';
+import Logo1 from "../../assets/logo1.png"
+import Logo2 from "../../assets/logo2.png"
 import Bars from '../../assets/bars.png';
 import { Link } from 'react-scroll';
 import './Header.css';
@@ -16,7 +18,7 @@ const Header = () => {
 
   return (
     <div className="header">
-      <img src={Logo} alt="" className="logo" />
+      <img src={Logo2} alt="" className="logo" />
 
       {isMobile && (
         <div

@@ -8,7 +8,7 @@ import NumberCounter from 'number-counter'
 import './HeroSection.css'
 
 import {motion} from 'framer-motion'
-import { Link, Links } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
 
@@ -47,34 +47,30 @@ const HeroSection = () => {
                     <div>
                         <span>
                             <NumberCounter 
-                                end={140} 
-                                start={69} 
+                                end={20} 
+                                start={0} 
                                 delay="3"
                                 preFix="+" 
                             />
                         </span>
-                        <span>expert coachs</span>
+                        <span>Years of Experience</span>
                     </div>
-                    <div><NumberCounter 
-                                end={978} 
-                                start={800} 
-                                delay="4"
-                                preFix="+" 
-                            />
+                    <div>
+                        
                         <span>
                             <NumberCounter 
-                                end={978} 
-                                start={779} 
+                                end={50} 
+                                start={0} 
                                 delay="3"
                                 preFix="+" 
                             />
                         </span>
-                        <span>members</span>
+                        <span>Clients Transformed</span>
                     </div>
                     <div>
                         <span>
                             <NumberCounter 
-                                end={50} 
+                                end={30} 
                                 start={10} 
                                 delay="3"
                                 preFix="+" 
