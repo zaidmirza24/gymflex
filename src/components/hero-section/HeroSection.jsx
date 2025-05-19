@@ -65,7 +65,7 @@ const HeroSection = () => {
                                 preFix="+" 
                             />
                         </span>
-                        <span>Clients Transformed and Her ei the bugs</span>
+                        <span>Clients Transformed</span>
                     </div>
                     <div>
                         <span>
