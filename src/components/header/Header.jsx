@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 // import Logo from '../../assets/logo.png';
-import Logo1 from "../../assets/logo1.png"
 import Logo2 from "../../assets/logo2.png"
 import Bars from '../../assets/bars.png';
 import { Link } from 'react-scroll';

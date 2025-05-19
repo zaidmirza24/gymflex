@@ -3,7 +3,6 @@ import './Footer.css'
 import Github from '../../assets/github.png';
 import Instagram from '../../assets/instagram.png';
 import LinkedIn from '../../assets/linkedin.png';
-import Logo from '../../assets/logo.png';
 import Logo2 from '../../assets/logo2.png';
 import arrow from '../../assets/up-arrow.png'
 
